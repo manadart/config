@@ -1,0 +1,5 @@
+XTerm*Background: black
+XTerm*Foreground: antique white
+xterm*saveLines: 50000
+xterm*selectToClipboard: true
+xterm*vt100.initialFont: 3
