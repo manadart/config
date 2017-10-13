@@ -1,4 +1,5 @@
 # This goes in ~/.config/systed/user
+# "AddKeysToAgent yes" should also be added to ~/.ssh/config
 [Unit]
 Description=SSH key agent
 
