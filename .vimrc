@@ -15,6 +15,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'fatih/vim-go'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
+Plugin 'puppetlabs/puppet-syntax-vim'
 
 call vundle#end()           " Required
 filetype plugin indent on   " Required
@@ -110,5 +111,4 @@ set t_Co=256
 let g:solarized_termcolors=256
 let g:solarized_termtrans = 1
 colorscheme solarized
-
 
