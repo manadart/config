@@ -1,0 +1,4 @@
+# If not in ~/.inputrc, use 'bind -f <path to this file>'.
+
+"\e[A": history-search-backward
+"\e[B": history-search-forward
