@@ -24,6 +24,12 @@ main = do
         , ("<XF86AudioRaiseVolume>", spawn "pulseaudio-ctl up 10")
         , ("<XF86AudioMute>", spawn "pulseaudio-ctl mute")
         , ("<XF86AudioMicMute>", spawn "pulseaudio-ctl mute-input")
+        -- These ones are from my Ubuntu set-up.
+        --, ("<XF86AudioLowerVolume>", spawn "amixer -D pulse sset Master 5%-")
+        --, ("<XF86AudioRaiseVolume>", spawn "amixer -D pulse sset Master 5%+")
+        --, ("<XF86AudioMute>", spawn "amixer -D pulse set Master 1+ toggle")
+        --, ("<XF86MonBrightnessDown>", spawn "xbacklight -dec 10")
+        --, ("<XF86MonBrightnessUp>", spawn "xbacklight -inc 10")
         , ("M-<Tab>", moveTo Next NonEmptyWS)
         , ("M-S-<Tab>", moveTo Prev NonEmptyWS)
         ]
