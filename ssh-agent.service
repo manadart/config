@@ -1,4 +1,7 @@
-# This goes in ~/.config/systed/user
+# This goes in ~/.config/systemd/user
+# Enable with:
+#   systemctl --user enable ssh-agent
+#   systemctl --user start ssh-agent
 # "AddKeysToAgent yes" should also be added to ~/.ssh/config
 [Unit]
 Description=SSH key agent
