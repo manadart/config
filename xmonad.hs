@@ -4,6 +4,7 @@ import XMonad.Hooks.ManageDocks
 import XMonad.Util.Run(spawnPipe)
 import XMonad.Util.EZConfig
 import System.IO
+import XMonad.Actions.CycleWS
 
 main = do
     xmproc <- spawnPipe "xmobar"
@@ -23,4 +24,6 @@ main = do
         , ("<XF86AudioRaiseVolume>", spawn "pulseaudio-ctl up 10")
         , ("<XF86AudioMute>", spawn "pulseaudio-ctl mute")
         , ("<XF86AudioMicMute>", spawn "pulseaudio-ctl mute-input")
+        , ("M-<Tab>", moveTo Next NonEmptyWS)
+        , ("M-S-<Tab>", moveTo Prev NonEmptyWS)
         ]
