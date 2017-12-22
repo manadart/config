@@ -39,7 +39,8 @@ set wildignore+=eggs/**
 set wildignore+=*.egg-info/**
 
 " Moving Around/Editing
-set cursorline              " Have a line indicate the cursor location.
+set cursorline              " Have a line indicate the cursor line location.
+set cursorcolumn            " Have a line indicate the cursor column location.
 set ruler                   " Show the cursor position all the time.
 set nostartofline           " Avoid moving cursor to BOL when jumping around.
 set virtualedit=block       " Let cursor move past the last char in <C-v> mode.
