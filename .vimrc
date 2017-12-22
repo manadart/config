@@ -16,6 +16,7 @@ Plugin 'fatih/vim-go'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
 Plugin 'puppetlabs/puppet-syntax-vim'
+Plugin 'mileszs/ack.vim'
 
 call vundle#end()           " Required
 filetype plugin indent on   " Required
@@ -101,8 +102,14 @@ nnoremap <leader>o :tabe<SPACE>
 nnoremap <leader>e :Vexplore!<CR>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
+nnoremap <Leader>a :Ack!<Space>
+
 " nnoremap <leader>t :tabn<CR>
 " nnoremap <leader>T :tabp<CR>
+
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
 
 au FileType go nmap <Leader>g <Plug>(go-def-tab)
 
