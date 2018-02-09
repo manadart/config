@@ -9,6 +9,7 @@ alias v='vim'
 alias batt='upower -i $(upower -e | grep BAT) | grep --color=never -E "state|to\ full|to\ empty|percentage"'
 alias usbm='udisksctl mount -b'
 alias usbu='udisksctl unmount -b'
+alias rainbow='source ~/.venvs/rainbowstream/bin/activate && rainbowstream'
 
 alias venvs="/bin/ls ~/.venvs/"
 vact(){ source "/home/joseph/.venvs/$1/bin/activate"; }
@@ -21,3 +22,6 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 
 # Prevents error in SBT.
 export TERM=xterm-color
+
+# Use the terminal in Vim mode.
+set -o vi
