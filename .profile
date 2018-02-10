@@ -24,4 +24,4 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 export TERM=xterm-color
 
 # Use the terminal in Vim mode.
-set -o vi
+bindkey -v
