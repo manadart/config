@@ -19,6 +19,9 @@ compinit
 # Correction
 setopt correctall
 
+# Ignore duplicates in history (for up arrow).
+setopt histignoredups
+
 # Syntax Highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
