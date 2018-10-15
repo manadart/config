@@ -21,7 +21,8 @@ export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 # Prevents error in SBT.
-export TERM=xterm-color
+export TERM="xterm-256color"
+export EDITOR="/usr/bin/vim"
 
 # Use the terminal in Vim mode.
 bindkey -v
