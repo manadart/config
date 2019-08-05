@@ -1,12 +1,15 @@
 <scheme name="VimSolarGo" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2018-01-26T09:29:13</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2017.3.0.0</property>
-    <property name="modified">2018-01-26T09:29:26</property>
+    <property name="modified">2019-08-05T14:07:24</property>
     <property name="originalScheme">VimSolarGo</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
+  <option name="EDITOR_FONT_SIZE" value="15" />
+  <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
   <colors>
     <option name="CARET_ROW_COLOR" value="282828" />
     <option name="CONSOLE_BACKGROUND_KEY" value="232323" />
@@ -49,11 +52,21 @@
         <option name="FOREGROUND" value="7e9161" />
       </value>
     </option>
+    <option name="GO_BLOCK_COMMENT" baseAttributes="DEFAULT_BLOCK_COMMENT" />
+    <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_BUILTIN_VARIABLE">
       <value>
         <option name="FOREGROUND" value="36a9c6" />
       </value>
     </option>
+    <option name="GO_EXPORTED_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="GO_LINE_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="GO_LOCAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_PACKAGE" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="a9b7c6" />
