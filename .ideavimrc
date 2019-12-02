@@ -4,6 +4,8 @@ set easymotion
 " Custom Commands
 map <\Space> <Leader> 
 map <Leader> <Plug>(easymotion-prefix)
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
 
 " Searching and Patterns
 set hlsearch    " Highlight searches by default.
